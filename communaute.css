@@ -1,0 +1,153 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #395C9F;
+    color: white;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 15px;
+    color: white;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {     
+    border-bottom: 2px solid white; 
+    /* Ajoute une bordure en bas au survol */ 
+}
+
+.search-bar {
+    display: flex;
+}
+
+.search-bar input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px 0 0 5px;
+}
+
+.search-bar button {
+    padding: 10px;
+    background-color: #FF5733;
+    color: white;
+    border: 1px solid #ddd;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+#groupes {
+    width: 70%;
+}
+
+h1 {
+    color: #333;
+}
+
+.groupe {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.groupe h2 {
+    color: #333;
+}
+
+.groupe p {
+    color: #555;
+}
+
+.groupe a {
+    display: inline-block;
+    background-color: #395C9F;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+aside {
+    width: 25%;
+}
+
+.user-info {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+user-info h2 {
+    color: #333;
+}
+
+user-info p {
+    color: #555;
+}
+
+user-info button {
+    background-color: #395C9F;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+#creerGroupeBtn {
+    background-color:  #395C9F;
+    color: white;
+    padding: 10px ;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#creerGroupeBtn a {
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+
+footer {
+    background-color: #395C9F;
+    color: white;
+    text-align: center;
+    padding: 2px;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {     
+    border-bottom: 2px solid white; 
+}

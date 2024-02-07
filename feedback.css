@@ -1,0 +1,111 @@
+
+header {
+    background-color: #395C9F;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+header h1 {
+    color:white;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-color: #f5f5f5;
+
+}
+
+form {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border: 2px solid #333;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #333;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+
+.feedback-section {
+    margin-top: 20px;
+}
+
+.survey-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 100%;
+}
+
+.radio {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+
+#range label {
+    position: relative;
+  }
+  
+#rangeValue {
+    position: absolute;
+    top: -20px; /* Ajustez la position verticale selon vos besoins */
+    left: 50%; /* Placez-le au milieu de l'élément parent */
+    transform: translateX(-50%); /* Ajustez pour centrer horizontalement */
+}
+
+
+button {
+    background-color: #395C9F;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0052a3;
+}
+
+footer {
+    background-color:  #395C9F;
+    color: white;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
+
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {     
+    border-bottom: 2px solid white; 
+}

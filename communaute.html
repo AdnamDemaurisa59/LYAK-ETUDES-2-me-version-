@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Communauté</title>
+    <link rel="stylesheet" href="communaute.css"> <!-- Lien vers votre fichier de styles CSS -->
+    <script src="communaute.js"></script> <!-- Lien vers votre fichier JavaScript -->
+    <script src="communaute.js" defer></script>
+
+</head>
+<body>
+
+    <header>
+        <h1>LYAK-ETUDES</h1>
+        <!-- Barre de navigation -->
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="profil.html">Etudiant</a>
+            <a href="forum.html">Forum</a>
+            <a href="contact.html">Contact</a>
+            <a href="rubrique.html">Boite à outil</a>
+        </nav>
+
+        <!-- Barre de recherche -->
+        <div class="search-bar">
+            <input type="text" placeholder="Rechercher...">
+            <button type="button">Rechercher</button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Section des groupes -->
+        <section id="groupes">
+            <form action="communaute.php" method="post">
+            <h1>Communauté d'Étudiants</h1>
+
+            <!-- Liste des groupes -->
+            <div class="groupe">
+                <h2>Groupe Développement Web</h2>
+                <p>Rejoignez ce groupe pour discuter des opportunités en Développement Web.</p>
+                <a href="groupe-developpementweb.html" onclick="rejoindreGroupe('Développement Web')">Rejoindre le Groupe</a>
+            </div>
+
+            <div class="groupe">
+                <h2>Groupe Marketing Digital</h2>
+                <p>Échangez des conseils et des informations sur les opportunités en Marketing Digital.</p>
+                <a href="groupe-marketing.html" onclick="rejoindreGroupe('Marketing Digital')">Rejoindre le Groupe</a>
+            </div>
+            <div class="groupe">
+                <h2>Groupe Creation & Design</h2>
+                <p>Échangez des conseils et des informations sur les opportunités en Création & Digital Design.</p>
+                <a href="groupe-design.html" onclick="rejoindreGroupe('Design')">Rejoindre le Groupe</a>
+            </div>
+            <div class="groupe">
+                <h2>Groupe Cybersécurité</h2>
+                <p>Échangez des conseils et des informations sur les opportunités en Cybersécurité </p>
+                <a href="groupe-cybersecurite.html" onclick="rejoindreGroupe('Cybersécurité')">Rejoindre le Groupe</a>
+            </div>
+            <div class="groupe">
+                <h2>Groupe 3D-Animation</h2>
+                <p>Échangez des conseils et des informations sur les opportunités en 3D, Animation & Jeux Vidéo.</p>
+                <a href="groupe-3Danimation.html" onclick="rejoindreGroupe('3D-animation')">Rejoindre le Groupe</a>
+            </div>
+            <div class="groupe">
+                <h2> Groupe Audiovisuel</h2>
+                <p>Échangez des conseils et des informations sur les opportunités en Audiovisuel.</p>
+                <a href="groupe-audiovisuel.html" onclick="rejoindreGroupe('Audiovisuel')">Rejoindre le Groupe</a>
+            </div>
+            <div class="groupe">
+                <h2>Groupe Architecture</h2>
+                <p>Échangez des conseils et des informations sur les opportunités en Architecture d'intérieur & Batiment Numérique.</p>
+                <a href="groupe-architecture.html" onclick="rejoindreGroupe('Architecture')" >Rejoindre le Groupe</a>
+            </div>
+            <div class="groupe">
+                <h2>Autres groupes</h2>
+                <p>Si vous souhaitez créer d'autres groupes, vous en avez aussi la possibilité</p>
+                <button id="creerGroupeBtn"><a><b>Créer un groupe</b></a></button>           
+            </div>
+            <br>
+            </form>
+            <!-- Ajoutez d'autres groupes ici -->
+        </section>
+
+        <div id="groupe-details">
+            <!-- Les détails du groupe s'afficheront ici -->
+        </div>
+
+        <!-- Section latérale avec les informations sur l'utilisateur -->
+        <aside>
+            <div class="user-info">
+                <h2>Nom de l'Utilisateur</h2>
+                <p>Email: utilisateur@example.com</p>
+                <p>Statut: Étudiant en Informatique</p>
+                <button type="button" onclick="logout()">Déconnexion</button>     
+            </div>
+        </aside>
+    </main>
+
+    <br>
+    <br>
+
+  <footer>
+    <p>© 2024 LYAK-ETUDES</p>
+    <a href="conditions.html">Conditions d'utilisation &nbsp;</a>
+    <a href="confidentialite.html">Politique de confidentialité</a>
+</footer>  
+
+</body>
+</html>
+

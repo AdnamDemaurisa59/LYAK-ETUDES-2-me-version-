@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentorat</title>
+    <link rel="stylesheet" href="mentorat.css"> <!-- Lien vers votre fichier de styles CSS -->
+    <script src="mentorat.js"></script>
+</head>
+<body>
+
+    <nav>
+        <a href="rubrique.html">Boite à Outil</a>
+        <a href="profil.html">Profil Etudiant</a>
+    </nav>
+
+    <header>
+        <h1>Sessions Mentorat</h1>
+    </header>
+
+    <main>
+        <section id="mentors">
+            <h1>Profils Mentors</h1>
+            <!-- Liste des etudiants -->
+            <ul class="mentors-list">
+                <li>
+                    <img src="images/mentor1.jpg" alt="Photo Mentor 1">
+                    <h2>Nom du mentor 1</h2>
+                    <p>Description du mentor 1.</p>
+                    <a href="profil-mentor.html">Voir Profil</a>
+                </li>
+                <li>
+                    <img src="images/mentor2.jpg" alt="Photo Mentor 2">
+                    <h2>Nom du mentor 2</h2>
+                    <p>Description du mentor 2.</p>
+                    <a href="profil-mentor.html">Voir Profil</a>
+                </li>
+                <li>
+                    <img src="images/mentor3.jpg" alt="Photo Mentor 3">
+                    <h2>Nom du mentor 3</h2>
+                    <p>Description du mentor 3.</p>
+                    <a href="profil-mentor.html">Voir Profil</a>
+                </li>
+                <li>
+                    <img src="images/mentor4.jpg" alt="Photo Mentor 4">
+                    <h2>Nom du mentor 4</h2>
+                    <p>Description du mentor 4.</p>
+                    <a href="profil-mentor.html">Voir Profil</a>
+                </li>
+                <li>
+                    <img src="images/mentor5.jpg" alt="Photo Mentor 5">
+                    <h2>Nom du mentor 5</h2>
+                    <p>Description du mentor 5.</p>
+                    <a href="profil-mentor.html">Voir Profil</a>
+                </li>
+                <li>
+                    <img src="images/mentor6.jpg" alt="Photo Mentor 6">
+                    <h2>Nom du mentor 6</h2>
+                    <p>Description du mentor 6.</p>
+                    <a href="profil-mentor.html">Voir Profil</a>
+                </li>
+                <li>
+                    <img src="images/mentor7.jpg" alt="Photo Mentor 7">
+                    <h2>Nom du mentor 7</h2>
+                    <p>Description du mentor 7.</p>
+                    <a href="profil-mentor.html">Voir Profil</a>
+                </li>
+                <li>
+                    <img src="images/mentor8.jpg" alt="Photo Mentor 8">
+                    <h2>Nom du mentor 8</h2>
+                    <p>Description du mentor 8.</p>
+                    <a href="profil-mentor.html">Voir Profil</a>
+                </li>
+                <li>
+                    <img src="images/mentor9.jpg" alt="Photo Mentor 9">
+                    <h2>Nom du mentor 9</h2>
+                    <p>Description du mentor 9.</p>
+                    <a href="profil-mentor.html">Voir Profil</a>
+                </li>
+                <li>
+                    <img src="images/mentor10.jpg" alt="Photo Mentor 10">
+                    <h2>Nom du mentor 10</h2>
+                    <p>Description du mentor 10.</p>
+                    <a href="profil-mentor.html">Voir Profil</a>
+                </li>
+                <li>
+                    <img src="images/mentor11.jpg" alt="Photo Mentor 11">
+                    <h2>Nom du mentor 11</h2>
+                    <p>Description du mentor 11.</p>
+                    <a href="profil-mentor.html">Voir Profil</a>
+                </li>
+                      <!-- Ajoutez d'autres profil mentor ici -->
+            </ul>
+        </section>
+
+        <section class="mentor-sessions">
+            <!-- Contenu des sessions mentorat -->
+            <div class="session">
+                <h2>Session 1</h2>
+                <p>Description de la session...</p>
+                <button onclick="demanderConsultation('Session 1')">Demander une consultation</button>
+            </div>
+    
+            <div class="session">
+                <h2>Session 2</h2>
+                <p>Description de la session...</p>
+                <button onclick="demanderConsultation('Session 2')">Demander une consultation</button>
+            </div>
+
+            <div class="session">
+                <h2>Session 3</h2>
+                <p>Description de la session...</p>
+                <button onclick="demanderConsultation('Session 3')">Demander une consultation</button>
+            </div>
+
+            <div class="session">
+                <h2>Session 4</h2>
+                <p>Description de la session...</p>
+                <button onclick="demanderConsultation('Session 4')">Demander une consultation</button>
+            </div>
+            <!-- Ajoutez d'autres sessions au besoin -->
+        </section>
+
+        <section class="consultation-form" id="consultationForm" style="display: none;">
+            <!-- Formulaire de demande de consultation -->
+            <h2>Demande de Consultation</h2>
+            <form>
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" required>
+                
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+    
+                <button type="submit">Envoyer la demande</button>
+            </form> 
+    </main>
+
+    <article>
+        <h3>Pourquoi en tant qu'étudiant il est nécessaire d'avoir un mentor ?</h3>
+        <a href="mentor-utilite.html">Cliquer ici pour en savoir plus</a>
+    </article>
+
+
+    <footer>
+        <p>© 2023 LYAK-ETUDES - Rubrique</p>
+        <a href="conditions.fr">Conditions d'utilisation &nbsp;</a>
+        <a href="confidentialité.fr">Politique de confidentialité</a>
+    </footer>
+
+    <script src="mentorat.js"></script>
+</body>
+</html>

@@ -1,0 +1,177 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav {
+    background-color: #395C9F;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {     
+    border-bottom: 2px solid white; 
+}
+
+header {
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+
+#mentors {
+    width: 70%;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+.mentors-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+ li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    transition: transform 0.3s ease-in-out;
+}
+
+li a {
+    display: inline-block;
+    padding: 10px;
+    background-color: #FF5733;
+    color: white;
+    text-decoration: none;
+    border-radius: 0 0 8px 8px;
+    transition: background-color 0.3s ease-in-out;
+    margin: 10px;
+}
+
+li a:hover {
+    background-color: red;
+}
+
+
+li:hover {
+    transform: scale(1.05);
+}
+
+
+img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+
+.mentor-sessions {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 2em;
+}
+
+.mentor-sessions div:hover {
+    transform: scale(1.05);
+}
+
+.session {
+    border: 1px solid #ddd;
+    padding: 1em;
+    margin: 1em;
+    max-width: 300px;
+    text-align: center;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.consultation-form {
+    padding: 2em;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+}
+
+
+article {
+    text-align: center;
+
+}
+
+
+article a {
+    display: inline-block;
+    padding: 10px;
+    background-color: #FF5733;
+    color: white;
+    text-decoration: none;
+    border-radius: 0 0 8px 8px;
+    transition: background-color 0.3s ease-in-out;
+    margin: 10px;
+  }
+  
+article a:hover {
+    background-color:  red;
+  }
+
+
+footer {
+    background-color:  #395C9F;;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    width: 100%;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {     
+    border-bottom: 2px solid white; 
+}

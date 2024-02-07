@@ -1,0 +1,238 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color:  #395C9F;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    
+}
+
+nav li {
+    list-style: none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none; /* Masquer la liste déroulante par défaut */
+    position: absolute;
+    background-color: black;
+
+}
+
+nav li:hover ul {
+    display: block; /* Afficher la liste déroulante au survol */
+}
+
+nav ul li {
+    display: block;
+}
+
+nav ul a {
+    padding: 10px;
+    display: block;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+h4 {
+    color: #2ecc71;
+}
+
+li {
+    margin-bottom: 20px;
+    margin
+    text-decoration: none;
+}
+
+p {
+    line-height: 1.6;
+}
+
+nav a:hover {     
+    border-bottom: 2px solid white; 
+    /* Ajoute une bordure en bas au survol */ 
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border: 2px solid #333; /* Couleur de la bordure */
+    border-radius: 8px; /* Coins arrondis */
+    padding: 5px; /* Espacement entre l'image et la bordure */
+
+}
+
+header img {
+    border-radius: 50%;
+    max-width: 100px;
+    margin-top: 10px;
+    width: 100px;
+    border: 2px solid #333; /* Couleur de la bordure */
+    border-radius: 8px; /* Coins arrondis */
+    padding: 5px; /* Espacement entre l'image et la bordure */
+
+}
+
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin-right: 20px; /* Ajustez la marge selon votre design */
+    text-align: center;
+    margin: 20px;
+}
+
+.search-bar input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px 0 0 5px;
+}
+
+.search-bar button {
+    padding: 10px;
+    background-color: #FF5733;
+    color: white;
+    border: 1px solid #ddd;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 8px;
+}
+
+
+article a {
+    display: inline-block;
+    padding: 10px;
+    background-color: #FF5733;
+    color: white;
+    text-decoration: none;
+    border-radius: 0 0 8px 8px;
+    transition: background-color 0.3s ease-in-out;
+    margin: 10px;
+  }
+  
+article a:hover {
+    background-color:  red;
+  }
+
+
+.contact-etudiant {
+    text-align: center;
+    padding: 2em;
+    margin: 20px;
+}
+
+
+ button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+footer {
+    background-color: #395C9F;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {     
+    border-bottom: 2px solid white; 
+    /* Ajoute une bordure en bas au survol */ 
+}
+
+#portfolio {
+    margin: 20px;
+}
+
+#profile-details,
+        #projects,
+        #portfolio {
+            text-align: left;
+        }
+
+
+        #portfolio .project {
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 8px;
+        }
+
+
+
+.project {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.message-container {
+    position: relative;
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    background-color: #eee;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .user-message {
+    background-color: #aaffaa;
+  }
+
+  .system-message {
+    background-color: #aaaaff;
+  }

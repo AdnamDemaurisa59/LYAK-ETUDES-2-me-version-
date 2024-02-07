@@ -1,0 +1,45 @@
+
+header {
+    text-align: center;
+    
+}
+.utilitementor {
+    text-align: center;
+}
+
+nav {
+    background-color: #395C9F;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {     
+    border-bottom: 2px solid white; 
+}
+
+
+footer {
+    background-color:  #395C9F;;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    width: 100%;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {     
+    border-bottom: 2px solid white; 
+}

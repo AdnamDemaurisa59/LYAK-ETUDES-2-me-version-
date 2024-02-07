@@ -1,0 +1,150 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color:  #395C9F;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 103%;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+}
+
+#avantages {
+    border: 2px solid #333;
+    border-radius: 8px;
+}
+
+#concept {
+    border: 2px solid #333;
+    border-radius: 8px;
+}
+
+article {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    border: 2px solid #333;
+    border-radius: 8px;
+   
+}
+
+article h2 {
+    color: #3498db;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+h4 {
+    color: #2ecc71;
+}
+
+li {
+    margin-bottom: 20px;
+    margin
+    text-decoration: none;
+}
+
+p {
+    line-height: 1.6;
+}
+
+
+legend {
+    text-align: center;
+}
+
+fieldset p {
+    text-align: center;
+}
+
+
+.features {
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f5f5;
+
+}
+
+.feature {
+    width: 25rem;
+    text-align: center;
+    line-height: 1.8;
+}
+
+.firstFeatures{
+    display: flex;
+    justify-content: space-around;
+    max-width: 90%;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.secondFeatures{
+    display: flex;
+    justify-content: space-around;
+    max-width: 90%;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.thirdFeatures {
+    display: flex;
+    justify-content: space-around;
+    max-width: 90%;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.fourthFeatures {
+    display: flex;
+    justify-content: space-around;
+    max-width: 90%;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+article fieldset {
+    width: 100%;
+}
+
+.features h3 {
+    text-align: center;
+    padding: 5px;
+    background-color:  #395C9F;
+    color: white;
+}
+
+footer {
+    background-color:  #395C9F;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    width: 103%;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {     
+    border-bottom: 2px solid white; 
+}

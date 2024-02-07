@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:  gray;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+nav {
+    background-color: #395C9F;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {     
+    border-bottom: 2px solid white; 
+}
+
+.firstclass-reward-item {
+    display: inline-block;
+    padding: 5px;
+    border-radius: 0 0 8px 8px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+
+div:hover {
+    transform: scale(1.05);
+}
+
+
+.reward-list {
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+}
+
+.reward-item {
+    max-width: 300px;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.reward-item img {
+    max-width: 100px;
+}
+
+.reward-item h2 {
+    color: #4CAF50;
+}
+
+.reward-item p {
+    color: #333;
+}
+/* Ajoutez d'autres styles selon vos besoins */
+
+article {
+    text-align: center;
+}
+
+article a {
+    text-decoration: none;
+    color: white;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color:  #395C9F;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    width: 100%;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {     
+    border-bottom: 2px solid white; 
+}

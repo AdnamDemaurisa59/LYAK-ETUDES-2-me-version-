@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="inscription.css">
+    <title>Inscription - Plateforme de Recherche de Stage</title>
+</head>
+<body>
+
+    <header>
+        <h1>LYAK-ETUDES</h1>
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="inscription-pro.html">Vous êtes un professionnel ?</a>
+            <a href="contact.html">Contactez-nous</a>
+        </nav>
+    </header>
+    
+        <h2>Rejoignez notre plateforme et commencez votre parcours professionnel.</h2>
+    
+    <main> 
+        <b>
+    <form action="traitement_inscription.php" method="post" autocomplete="on">
+        <fieldset> 
+            <legend>Informations Personnel</legend>
+        <div class="text">
+        <label for="fName">Prénom :</label>
+        <input type="text" id="fName" name="fName" placeholder="Votre prénom" required>
+        </div>
+
+        <div class="text">
+        <label for="lName">Nom :</label>
+        <input type="text" id="lName" name="lName" placeholder="Votre nom de famille" required>
+        </div>
+
+       <div class="text">
+        <label for="dob">Votre date de naissance</label>
+        <input type="date" name="dob" id="dob" placeholder="Votre date de naissance" autocomplete="on" required>
+       </div>
+
+       <div class="text">
+        <label for="email">Adresse e-mail :</label>
+        <input type="email" id="email" name="email" placeholder="Votre adresse mail" required>
+       </div>
+
+       <div class="text">
+        <label for="tel">Votre numéro de téléphone</label>
+        <input type="tel" name="tel" id="tel" placeholder="Votre numéro de téléphone"  required>
+       </div>
+
+        <div class="select">
+            <label for="country">Votre nationalité</label>
+            <select name="country" id="country" >
+                <option>-- Choisissez votre pays </option>
+                <option value="BE">Belgique</option>
+                <option value="FR" selected>France</option>
+                <option value="CA">Canada</option>
+                <option value="CH">Suisse</option>
+                <option value="RDC">Congo</option>
+            </select>
+        </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Votre compte</legend>
+        <div class="text">
+            <label for="username">Choisissez un nom d'utilisateur</label>
+            <input type="text" name="username" id="username" placeholder="Choisissez un nom d'utilisateur" maxlength="12" required="">
+
+            <label for="password1">Mot de passe</label>
+            <input type="password" name="password1" id="password1" placeholder="Renseigner votre mot de passe" autocomplete="off" maxlength="16" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{6,}$" title="Le mot de passe doit contenir au moins 6 caractères, dont une lettre majuscule, une lettre minuscule, un chiffre et un caractère spécial (@,$,!,%,*,?,&).">
+        
+            <label for="password2">Confirmation mot de passe</label>
+            <input type="password" name="password2" id="password2" placeholder="Confirmer votre mot de passe" autocomplete="off" maxlength="16" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{6,}$" title="Le mot de passe doit contenir au moins 6 caractères, dont une lettre majuscule, une lettre minuscule, un chiffre et un caractère spécial (@,$,!,%,*,?,&).">
+        </div>
+    </fieldset>
+     <br>
+
+        <fieldset>  
+            <legend>Envoyer</legend>
+            <div class="checkboxes">
+                <label><input id="terms" type="checkbox" name="termes" value="yes">J'accepte les termes et conditions</label>
+            </div>
+            <div class="button">
+                <input type="hidden" value="123456789" >
+               <button type="submit">S'inscrire</button>
+            </div>
+        </fieldset>
+
+    </form>
+
+    <article>
+    <p>Déjà inscrit ? <a href="connexion.html">Connectez-vous</a></p>
+    </article>
+</main>
+
+</body>
+</html>

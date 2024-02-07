@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil de l'Étudiant</title>
+    <link rel="stylesheet" href="etudiant.css"> <!-- Lien vers le fichier CSS pour les styles -->
+</head>
+<body>
+
+    <!-- Barre de navigation -->
+    <nav>
+        <h1>LYAK-ETUDES</h1>
+        <!-- Liens de navigation, par exemple : Accueil, Offres, Profil, Déconnexion, etc. -->
+        <li>
+            <a href="index.html">Accueil</a>
+            <!-- Liste déroulante pour la rubrique Boite à outil -->
+            <ul>
+                <li><a href="actualite.html">Actualité</a></li>
+                <li><a href="confidentialite.html">Confidentialité</a></li>
+                <li><a href="conditions.html">Condition</a></li>
+                <li><a href="rubrique.html">Boite à Outil</a></li>
+                <li><a href="contact.html">Contactez-nous</a></li>
+                <li><a href="proposdenous.html">A propos de nous</a></li>
+                <!-- Ajoutez d'autres liens pour la boite à outils -->
+            </ul>
+        </li>
+        <li>
+            <a href="offres.html">Offres</a>          
+            <ul>
+                <li><a href="stage.html">Stages</a></li>
+                <li><a href="alternance.html">Alternance</a></li>
+
+            </ul>
+        </li>
+        <li>
+            <a href="">Paramètre du compte</a>          
+            <ul>
+                <li><a href="proposdemoi.html">À Propos de moi</a></li>
+                <li><a href="profil-settings.html">Paramètres Profil</a></li>
+
+            </ul>
+        </li>
+            <a href="communaute.html">Communauté</a>
+            <a href="forum.html">Forum</a>
+                       <!-- Barre de recherche -->
+    <div class="search-bar">
+        <input type="text" placeholder="Rechercher dans le profil...">
+        <button type="button">Rechercher</button>
+    </div>
+    </nav>
+
+    <!-- En-tête de la page de profil -->
+    <header>
+                <!-- Informations générales sur l'étudiant : nom, prénom, photo, etc. -->
+        <h1>Profil de l'Étudiant</h1>
+        <img src="avatar.jpg" alt="Photo de profil">
+        &nbsp;
+                 <!-- Barre de recherche -->
+    </header>
+
+    <article>
+        <a href="notation-etudiant.html">Notation Stage - Espace Etudiant</a>
+        <a href="mentorat.html">Choisissez votre Mentor</a>
+        <a href="entreprise.html">Profil Entreprises</a>
+        <a href="profil-mentor.html">Votre Mentor</a>
+    </article>
+
+    <!-- Section principale du profil -->
+    <section id="profile-details">
+        <!-- Détails spécifiques du profil : compétences, éducation, expériences, projets, etc. -->
+        <h2>Détails du Profil</h2>
+        <p>Nom-Prénom: Koud Demaurisa Adnam</p>
+        <p>Compétences: HTML, CSS, JavaScript</p>
+        <p>Établissement Scolaire: Lille Ynov Campus </p>
+        <p>Expliquer le poste recherché: Développeur Front-End</p>
+        <p>Expériences personnels/professionnel: </p>
+        <!-- Ajoutez d'autres détails du profil ici -->
+    </section>
+
+
+    <!-- Section des projets personnels/académiques -->
+    <section id="projects">
+        <h2>Projets</h2>
+        <!-- Liste des projets personnels ou académiques de l'étudiant avec descriptions -->
+        <ul>
+            <li>Projet Académique 1</li>
+            <br>
+            <li>Projet Personnel 1</li>
+            <!-- Ajoutez d'autres projets ici -->
+        </ul>
+    </section>
+
+    <section id="portfolio">
+        <h2>Mon Portfolio</h2>
+
+        <!-- Projet 1 -->
+        <div class="project">
+            <img src="project1.jpg" alt="Projet 1">
+            <a href="">PROJET
+            <a href="" >GIT-HUB
+            <h3>Titre du Projet 1</h3>
+            <p>Description du Projet 1...</p>
+        </div>
+
+        <!-- Projet 2 -->
+        <div class="project">
+            <img src="project2.jpg" alt="Projet 2">
+            <a href="">PROJET
+            <a href="" >GIT-HUB
+            <h3>Titre du Projet 2</h3>
+            <p>Description du Projet 2...</p>
+        </div>
+        <!-- Ajoutez d'autres projets ici -->
+    </section>
+
+    <section class="contact-etudiant">
+        <!-- Bouton pour contacter l'étudiant -->
+        <button>Contactez l'étudiant</button>
+    </section>
+
+
+    <!-- Pied de page -->
+    <footer>
+        <!-- Informations complémentaires, liens utiles, droits d'auteur, etc. -->
+        <p>© 2023 LYAK-ETUDES</p>
+        <a href="conditions.html">Conditions d'utilisation &nbsp;</a>
+        <a href="confidentialite.html">Politique de confidentialité</a>
+    </footer>
+
+    <script>
+        // Exemple de script JavaScript pour rendre la navigation plus interactive
+        document.querySelectorAll('nav li').forEach(li => {
+            li.addEventListener('mouseover', function () {
+                this.querySelector('ul').style.display = 'block';
+            });
+
+            li.addEventListener('mouseout', function () {
+                this.querySelector('ul').style.display = 'none';
+            });
+        });
+    </script>
+
+</body>
+</html>

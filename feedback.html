@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="feedback.css">
+    <title>Sondages et Feedback</title>
+</head>
+<body>
+
+    <header>
+        <h1>Feedback - LYAK-ETUDES</h1>
+        <p>Votre avis compte. Merci de partager votre feedback avec nous.</p>
+    </header>
+
+    <div class="survey-container">
+        <h1>Sondages et Feedback</h1>
+        <form id="surveyForm" action="traitement_feedback.php" method="post">
+            <div class="radio" id="radio">
+                <p>1. Comment évaluez-vous l'interface utilisateur de la plateforme?</p>
+                <label><input type="radio" name="q1" value="excellent">Excellent</label>
+                <label><input type="radio" name="q1" value="bon">Bon</label>
+                <label><input type="radio" name="q1" value="moyen">Moyen</label>
+                <label><input type="radio" name="q1" value="insuffisant">Insuffisant</label>
+            </div>
+
+            <div class="question" id="question">
+                <p>2. Quels types de fonctionnalités aimeriez-vous voir ajoutés à la plateforme?</p>
+                <textarea name="q2" rows="4" placeholder="Entrez vos suggestions ici"></textarea>
+            </div>
+
+            <div class="range" >
+                <p>3.Comment évaluez-vous la facilité de navigation sur la plateforme?</p>
+                <label><input type="range" name="q3" value=""></label>
+                </div>
+
+            <div class="radio" id="radio">
+                <p>4.Trouvez-vous le contenu informatif et utile?</p>
+                <label><input type="radio" name="q4" value="">Oui, totalement</label>
+                <label><input type="radio" name="q4" value="">Oui, dans une certaine mesure</label>
+                <label><input type="radio" name="q4" value="">Neutre</label>
+                <label><input type="radio" name="q4" value="">Non, dans une certaine mesure</label>
+                <label><input type="radio" name="q4" value="">Non, pas du tout</label>
+                <label><input type="radio" name="q4" value="">Pas certain</label>
+            </div>
+
+            <div class="radio" id="radio">
+                <p>5.Avez-vous rencontré des problèmes de réactivité sur la plateforme?</p>
+                <label><input type="radio" name="q5" value="">Non, la plateforme est très réactive</label>
+                <label><input type="radio" name="q5" value="">Oui, parfois</label>
+                <label><input type="radio" name="q5" value="">Oui, fréquemment </label>
+                <label><input type="radio" name="q5" value="">Non, mais j'utilise principalement des fonctionnalités simples </label>
+                <label><input type="radio" name="q5" value="">Je ne suis pas sûr</label>
+            </div>
+
+            <div class="radio" id="radio">
+                <p>6.Comment évaluez-vous notre service client ?</p>
+                <label><input type="radio" name="q6" value="excellent">Excellent</label>
+                <label><input type="radio" name="q6" value="bon">Bon</label>
+                <label><input type="radio" name="q6" value="moyen">Moyen</label>
+                <label><input type="radio" name="q6" value="insuffisant">Insuffisant</label>
+            </div>
+
+            <div class="question" id="question">
+                <p>7.Avez-vous des suggestions spécifiques pour améliorer la plateforme?</p>
+                <textarea name="q7" rows="4" placeholder="Entrer vos suggestions spécifiques"></textarea>
+            </div>
+
+            <div class="radio" id="radio">
+                <p>8.À quelle fréquence utilisez-vous la plateforme?</p>
+                <label><input type="radio" name="q8" value="">Tous les jours</label>
+                <label><input type="radio" name="q8" value="">Plusieurs fois par semaine</label>
+                <label><input type="radio" name="q8" value="">Une fois par semaine</label>
+                <label><input type="radio" name="q8" value="">Occasionnellement</label>
+                <label><input type="radio" name="q8" value="">Je l'ai utilisé uniquement pour des besoins spécifiques </label>
+                <label><input type="radio" name="q8" value="">Je ne l'ai utilisé qu'une fois</label>
+
+            </div>
+
+            <div class="radio" id="question">
+                <p>9.Y a-t-il d'autres fonctionnalités que vous aimeriez voir ajoutées?</p>
+                <label><input type="radio" name="q9" value="">Oui, j'aimerais voir une fonctionnalité de...</label>
+                <label><input type="radio" name="q9" value="">Non, la plateforme est complète pour mes besoins</label>
+                <label><input type="radio" name="q9" value="">Je ne suis pas sûr, mais peut-être une fonctionnalité pour..</label>
+                <label><input type="radio" name="q9" value="">Je n'ai pas encore pensé à d'autres fonctionnalités</label>
+                <label><input type="radio" name="q9" value="">Je ne sais pas</label>
+                <textarea name="q9" rows="2" placeholder="Veuillez renseigner les fonctionnalités que vous aimeriez voir sur notre plateforme ici."></textarea>
+            </div>
+
+            <div class="range" id="range">
+                <p>10.Comment évaluez-vous votre expérience globale sur la plateforme?</p>
+                <label><input type="range"  id="rangeInput" name="q10"></label>
+                <span id="rangeValue">50%</span>
+            </div>
+
+            <div class="radio" id="radio">
+                <p>11.Avez-vous une compréhension claire des objectifs de la plateforme?</p>
+                <label><input type="radio" name="q11" value="">Oui, totalement </label>
+                <label><input type="radio" name="q11" value="">Oui, mais partiellement</label>
+                <label><input type="radio" name="q11" value="">Non, pas vraiment</label>
+                <label><input type="radio" name="q11" value="">Pas du tout</label>
+                <label><input type="radio" name="q11" value="">Pas certain</label>
+
+            </div>
+
+            <div class="radio" id="radio">
+                <p>12.Êtes-vous satisfait des résultats obtenus grâce à la plateforme?</p>
+                <label><input type="radio" name="q12" value="">Oui, j'ai trouvé des opportunités correspondant à mes attentes</label>
+                <label><input type="radio" name="q12" value="">Oui, j'ai trouvé des opportunités, mais elles ne correspondent pas parfaitement à mes attentes</label>
+                <label><input type="radio" name="q12" value="">Non, je n'ai pas encore trouvé d'opportunités</label>
+                <label><input type="radio" name="q12" value="">Non, les résultats ne sont pas à la hauteur de mes attente</label>
+                <label><input type="radio" name="q12" value="">Je suis encore en processus de recherche</label>
+                <label><input type="radio" name="q12" value="">Je ne souhaite pas répondre</label>
+
+            </div>
+
+            <div class="radio" id="radio">
+                <p>13. Recommanderiez-vous la plateforme à vos pairs?</p>
+                <label><input type="radio" name="q13" value="oui">Oui</label>
+                <label><input type="radio" name="q13" value="non">Non</label>
+            </div>
+
+            <button type="button" onclick="submitSurvey()">Envoyer le Feedback</button>
+        </form>
+    </div>
+
+    <script>
+        // Obtenez l'élément de l'input range
+var rangeInput = document.getElementById('rangeInput');
+
+// Obtenez l'élément pour afficher le pourcentage
+var rangeValue = document.getElementById('rangeValue');
+
+// Mettez à jour le pourcentage lors du changement de la valeur du range
+rangeInput.addEventListener('input', function() {
+  var percentage = this.value + '%';
+  rangeValue.innerText = percentage;
+});
+    </script>
+
+
+    <footer>
+        <p>© 2024 LYAK-ETUDES</p>
+        <a href="conditions.html">Conditions d'utilisation &nbsp;</a>
+        <a href="confidentialite.html">Politique de confidentialité</a>
+    </footer>
+
+    <script src="feedback.js"></script>
+</body>
+</html>

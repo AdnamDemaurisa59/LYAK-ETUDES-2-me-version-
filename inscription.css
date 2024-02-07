@@ -1,0 +1,133 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    position: relative;
+    margin-right: 20px; /* Ajoute un espacement à droite pour chaque lien (ajustez selon vos besoins) */
+    font-weight: bold;
+}
+
+nav a:hover {
+    border-bottom: 2px solid white; 
+}
+
+
+h1 {
+    margin: 15px;
+    color: white;
+}
+
+h2 {
+    text-align: center
+}
+
+header {
+    background-color: #395C9F;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+}
+
+main {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+form {
+    display: grid;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.checkboxes div{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+
+/* Styles pour aligner la case à cocher avec le texte */
+.checkboxes label {
+    display: flex;
+    align-items: center;
+}
+
+/* Styles supplémentaires pour la case à cocher (facultatif) */
+.checkboxes input {
+    margin-right: 5px; /* Espace entre la case à cocher et le texte */
+}
+
+
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+fieldset  {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+article {
+    margin-top: 20px;
+    text-align: center;
+}
+
+article a {
+    color: #395C9F;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    color:black;
+    
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groupe Etudiant Cybersécurité</title>
+    <link rel="stylesheet" href="groupe-cybersecurite.css">
+</head>
+<body>
+
+    <nav>
+        <a href="">Paramètre Groupe</a>
+    </nav>
+
+    <header>
+        <h1>Groupe d'Étudiants en Cybersécurité</h1>
+    </header>
+    
+    <div class="groupe-details">
+        <h2>Membres du Groupe</h2>
+    
+        <div class="etudiant">
+            <img src="avatar1.jpg" alt="Avatar Étudiant 1" width="50">
+            <div class="etudiant-info">
+                <h3>Nom Étudiant 1</h3>
+                <p>Programme d'Études: Cybersécurité</p>
+                <p>Description de l'étudiant</p>
+                <a href="etudiant.html">Profil de l'étudiant</a>
+            </div>
+        </div>
+
+        <div class="etudiant">
+            <img src="avatar2.jpg" alt="Avatar Étudiant 2" width="50">
+            <div class="etudiant-info">
+                <h3>Nom Étudiant 2</h3>
+                <p>Programme d'Études: Cybersécurité</p>
+                <p>Description de l'étudiant</p>
+                <a href="etudiant.html">Profil de l'étudiant</a>
+            </div>
+        </div>
+
+        <div class="etudiant">
+            <img src="avatar3.jpg" alt="Avatar Étudiant 3" width="50">
+            <div class="etudiant-info">
+                <h3>Nom Étudiant 3</h3>
+                <p>Programme d'Études: Cybersécurité</p>
+                <p>Description de l'étudiant</p>
+                <a href="etudiant.html">Profil de l'étudiant</a>
+            </div>
+        </div>
+
+        <div class="etudiant">
+            <img src="avatar4.jpg" alt="Avatar Étudiant 4" width="50">
+            <div class="etudiant-info">
+                <h3>Nom Étudiant 4</h3>
+                <p>Programme d'Études: Cybersécurité</p>
+                <p>Description de l'étudiant</p>
+                <a href="etudiant.html">Profil de l'étudiant</a>
+            </div>
+        </div>
+
+        <div class="etudiant">
+            <img src="avatar5.jpg" alt="Avatar Étudiant 5" width="50">
+            <div class="etudiant-info">
+                <h3>Nom Étudiant 5</h3>
+                <p>Programme d'Études: Cybersécurité</p>
+                <p>Description de l'étudiant</p>
+                <a href="etudiant.html">Profil de l'étudiant</a>
+            </div>
+        </div>
+
+        <h2>Gestion du Groupe</h2>
+
+    <form id="ajouter-etudiant-form">
+        <label for="nom-etudiant">Nom de l'étudiant :</label>
+        <input type="text" id="nom-etudiant" required>
+        <button type="button" onclick="ajouterEtudiant()">Ajouter Étudiant</button>
+    </form>
+
+    <ul id="liste-etudiants">
+        <!-- La liste des étudiants sera affichée ici -->
+    </ul>
+    
+
+        <!-- Ajouter d'autres étudiants -->
+    
+        <h2>Groupe de Messagerie</h2>
+    
+        <div class="groupe-messagerie" id="groupe-messagerie">
+            <div id="messages-container"></div>
+            <input type="text" id="message-input" placeholder="Message...">
+            <button onclick="envoyerMessage()">Envoyer</button>
+        </div>
+    </div>
+ 
+    <script src="groupe-cybersecurite.js"></script>
+    
+</body>
+</html>

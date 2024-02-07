@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #395C9F;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.groupe-details {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.etudiant {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+.etudiant img {
+    border-radius: 50%;
+    margin-right: 10px;
+    width: 100px;
+}
+
+.etudiant-info {
+    flex-grow: 1;
+}
+
+.groupe-messagerie {
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    padding: 10px;
+}
+
+.groupe-messagerie input {
+    width: 70%;
+    padding: 8px;
+    margin-right: 10px;
+}
+
+.groupe-messagerie button {
+    padding: 8px;
+}
