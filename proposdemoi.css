@@ -1,0 +1,71 @@
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {     
+    border-bottom: 2px solid white; 
+    /* Ajoute une bordure en bas au survol */ 
+}
+
+header {
+    padding: 15px;
+    background-color: #395C9F;
+}
+
+#profile-settings {
+    text-align: center;
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 15px 30px;
+    background-color: #FF5733;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #395C9F;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {     
+    border-bottom: 2px solid white; 
+    /* Ajoute une bordure en bas au survol */ 
+}

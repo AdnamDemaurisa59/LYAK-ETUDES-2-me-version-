@@ -1,0 +1,112 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paramètres du Profil</title>
+    <link rel="stylesheet" href="profil-settings.css"> <!-- Lien vers votre fichier de styles CSS -->
+</head>
+<body>
+
+    <header>
+        <!-- Barre de navigation -->
+        <nav>
+            <!-- ... (Liens de navigation) ... -->
+            <a href="etudiant.html">Mon Profil</a>
+            <a href="proposdemoi.html">À Propos de moi</a>
+        </nav>
+    </header>
+
+    <main>
+            <!-- Paramètres de compte -->
+            <section id="account-settings">
+                <h2>Paramètres de compte</h2>
+                <ul>
+                    <li><strong>Notifications:</strong>  
+                        <input type="checkbox" name="activated"> Activé
+                        <input type="checkbox" name="desactivated"> Désactivé</li>
+                    <li><strong>Abonnements:</strong> Newsletter</li>
+                    <br>
+                    <br>
+                    <li><strong>Langue:</strong> 
+                        <input type="checkbox" name="Language">Français
+                        <input type="checkbox" name="Language">Anglais
+                        <input type="checkbox" name="Language">Espagnol
+                        <input type="checkbox" name="Language">Allemand
+                        <input type="checkbox" name="Language">Italien </li>
+                    <li><strong>Date de naissance : </strong><input type="text" id="date" name="date" placeholder="JJ/MM/AAAA"></li>
+                    <!-- Ajoutez d'autres paramètres de compte ici -->
+                </ul>
+            </section>
+
+            <!-- Paramètres de confidentialité -->
+            <section id="privacy-settings">
+                <h2>Paramètres de confidentialité</h2>
+                <ul>
+                    <li>
+                        <label>
+                            <p><strong>Qui peut voir votre profil?</strong></p>
+                            <input type="checkbox" name="profileVisibility"> Tout le monde
+                            <input type="checkbox" name="profileVisibility"> Mon réseau seulement
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <p><strong>Qui peut voir vos informations personnelles?</strong></p>
+                            <input type="checkbox" name="infoVisibility"> Tout le monde
+                            <input type="checkbox" name="infoVisibility"> Mon réseau
+                            <input type="checkbox" name="infoVisibility"> Seulement Moi
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <p><strong>Qui peut vous contacter?</strong></p>
+                            <input type="checkbox" name="contactVisibility"> Tout le monde
+                            <input type="checkbox" name="contactVisibility"> Mon réseau
+                            <input type="checkbox" name="contactVisibility"> Personne
+                        </label>
+                    </li>
+                    <!-- Ajoutez d'autres choix de confidentialité ici -->
+                </ul>
+            </section>
+
+            <!-- Paramètres de sécurité -->
+            <section id="security-settings">
+                <h2>Paramètres de sécurité</h2>
+                <ul>
+                    <li>
+                        <label>
+                            <p><strong>Vérification en deux étapes</strong></p>
+                            <input type="checkbox" name="securityAlerts">Activé
+                            <input type="checkbox" name="securityAlerts">Désactivé
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <p><strong>Alertes de sécurité</strong></p>
+                            <input type="checkbox" name="securityAlerts">Activé
+                            <input type="checkbox" name="securityAlerts">Désactivé
+                        </label>
+                    </li>
+                    <!-- Ajoutez d'autres choix de sécurité ici -->
+                </ul>
+            </section>
+        </section>
+    </main>
+
+    <article>
+        <button type="submit">Enregistrer les Paramètres</button>
+    </article>
+
+    <footer>
+        <p>© 2023 LYAK-ETUDES - Paramètres du Profil</p>
+        <a href="conditions.fr">Conditions d'utilisation &nbsp;</a>
+        <a href="confidentialité.fr">Politique de confidentialité</a>
+    </footer>
+
+</body>
+</html>
+
+
+
+
+

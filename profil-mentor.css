@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #395C9F;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {     
+    border-bottom: 2px solid white; 
+}
+
+article {
+    display: flex;
+    justify-content: space-around;
+}
+
+article a {
+    display: inline-block;
+    padding: 10px;
+    background-color: #FF5733;
+    color: white;
+    text-decoration: none;
+    border-radius: 0 0 8px 8px;
+    transition: background-color 0.3s ease-in-out;
+    margin: 10px;
+}
+  
+article a:hover {
+    background-color:  red;
+}
+
+
+header {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+.mentor-profile {
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+}
+
+.profile-picture {
+    max-width: 500px;
+    display: inline-block;
+    padding: 10px;
+    background-color: #ddd;
+    color: white;
+    text-decoration: none;
+    border-radius: 0 0 8px 8px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+
+.profile-picture:hover {
+    transform: scale(1.05);
+}
+
+.profile-picture img {
+    max-width: 150px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.profile-details {
+    max-width: 500px;
+    display: inline-block;
+    padding: 10px;
+    background-color: #ddd;
+    color: white;
+    text-decoration: none;
+    border-radius: 0 0 8px 8px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.profile-details:hover {
+    transform: scale(1.05);
+}
+
+.profile-details h2 {
+    color: black;
+}
+
+.contact-mentor {
+    text-align: center;
+    padding: 2em;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#portfolio {
+    margin: 20px;
+}
+
+.project {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color:  #395C9F;;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    width: 100%;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {     
+    border-bottom: 2px solid white; 
+}

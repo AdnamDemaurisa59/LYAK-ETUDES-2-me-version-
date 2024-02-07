@@ -1,0 +1,43 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+section {
+    width: 80%;
+    margin: 20px auto;
+}
+
+article {
+    text-align: center;
+}
+
+footer {
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+    text-align: center;
+}
+
+/* Styles spécifiques pour les liens dans les pages de conditions et confidentialité */
+a {
+    color:  #395C9F;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

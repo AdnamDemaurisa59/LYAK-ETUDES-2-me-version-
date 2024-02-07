@@ -1,0 +1,76 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paramètres du Profil</title>
+    <link rel="stylesheet" href="proposdemoi.css"> <!-- Lien vers votre fichier de styles CSS -->
+</head>
+<body>
+
+    <header>
+        <!-- Barre de navigation -->
+        <nav>
+            <!-- ... (Liens de navigation) ... -->
+            <a href="etudiant.html">Mon Profil</a>
+            <a href="profil-settings.html">Paramètre du profil</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Paramètres du profil -->
+        <section id="profile-settings">
+            <h1>A propos de moi</h1>
+
+            <!-- Formulaire pour les paramètres -->
+            <form action="#" method="post">
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="name" placeholder="Entrez votre nom" required>
+
+                <label for="firstname">Prénom :</label>
+                <input type="text" id="firstname" name="firstname" placeholder="Entrez votre prénom" required>
+
+                <label for="date of birth">Date de naissance</label>
+                <input type="text" id="firstname" name="date of birth" placeholder="Entrez votre date de naissance" required>
+
+                <label for="address">Adresse postal:</label>
+                <input type="text" id="address" name="address" placeholder="Entrez votre adresse" required>
+
+                <label for="address">Adresse e-mail :</label>
+                <input type="text" id="e-mail" name="e-mail" placeholder="Entrez votre adresse mail" required>
+
+                <label for="phone">Numéro de Téléphone :</label>
+                <input type="tel" id="phone" name="phone" placeholder="Entrez votre numéro de téléphone" required>
+
+                <label for="password">Mot de Passe :</label>
+                <input type="password" id="password" name="password" placeholder="Nouveau mot de passe" required maxlength="16" autocomplete="off" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{6,}$" title="Le mot de passe doit contenir au moins 6 caractères, dont une lettre majuscule, une lettre minuscule, un chiffre et un caractère spécial (@,$,!,%,*,?,&).">
+
+                <label for="confirm-password">Confirmer le Mot de Passe :</label>
+                <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirmez votre mot de passe" required maxlength="16" autocomplete="off" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{6,}$" title="Le mot de passe doit contenir au moins 6 caractères, dont une lettre majuscule, une lettre minuscule, un chiffre et un caractère spécial (@,$,!,%,*,?,&).">
+
+                <div class="select">
+                    <label for="country">Quel est votre nationalité ?</label>
+                    <select name="country" id="country">
+                        <option>-- Choisissez votre pays </option>
+                        <option value="BE">Belgique</option>
+                        <option value="FR">France</option>
+                        <option value="CA">Canada</option>
+                        <option value="CH">Suisse</option>
+                        <option value="RDC">Congo</option>
+                </select>
+                </div>
+                <br>
+
+                <button type="submit">Enregistrer les Paramètres</button>
+            </form>
+        </section>
+    </main>
+
+
+    <footer>
+        <p>© 2023 LYAK-ETUDES - Paramètres du Profil</p>
+        <a href="conditions.fr">Conditions d'utilisation &nbsp;</a>
+        <a href="confidentialité.fr">Politique de confidentialité</a>
+    </footer>
+
+</body>
+</html>
